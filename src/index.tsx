@@ -1,8 +1,4 @@
-import { Component, render, h } from "/web_modules/preact.js";
+import { render, h } from "/web_modules/preact.js";
+import { App } from "./App";
 
-render(
-  <div>
-    <h1>Hello, World!</h1>
-  </div>,
-  document.getElementById("root")
-);
+render(<App />, document.getElementById("root"));

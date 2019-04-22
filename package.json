@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "pika": "pika-web",
-    "start": "tsc && serve ."
+    "tsc": "tsc",
+    "start": "serve ./"
   },
   "dependencies": {
     "preact": "^8.4.2"
@@ -11,6 +12,6 @@
     "@pika/web": "^0.4.2",
     "prettier": "^1.17.0",
     "serve": "^11.0.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.4"
   }
 }

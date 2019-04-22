@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es6",
     "moduleResolution": "node",
-    "rootDir": "src",
-    "outDir": "dist",
+    "rootDir": "./src",
+    "outDir": "./dist",
     "jsx": "react",
     "jsxFactory": "h",
     "baseUrl": ".",
